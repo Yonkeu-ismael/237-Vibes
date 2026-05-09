@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="42" fill="#0E0924"/>
+  <circle cx="96" cy="96" r="72" fill="url(#bg)" opacity="0.25"/>
+  <text x="96" y="88" fill="#FFFFFF" font-size="46" font-family="Arial, sans-serif" font-weight="800" text-anchor="middle">237</text>
+  <text x="96" y="118" fill="#C4B5FD" font-size="20" font-family="Arial, sans-serif" font-weight="700" text-anchor="middle" letter-spacing="2">VIBES</text>
+</svg>
