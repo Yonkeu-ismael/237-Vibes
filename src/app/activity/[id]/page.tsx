@@ -142,18 +142,17 @@ export default async function ActivityDetailPage({
                            </div>
                         </div>
 
-                        {/* CTA — nécessite un compte */}
                         <Link
-                           href={`/login?redirect=/activity/${activity.id}`}
+                           href={`/activity/${activity.id}/reserve`}
                            className="mt-5 flex h-12 w-full items-center justify-center rounded-xl bg-gradient-to-r from-violet-600 to-fuchsia-600 font-bold text-white hover:opacity-90 transition"
                         >
                            Réserver ma place
                         </Link>
 
                         <p className="mt-3 text-center text-xs text-violet-100/50">
-                           Un compte est requis pour réserver.{" "}
+                           Compte optionnel —{" "}
                            <Link href="/signup" className="text-violet-300 underline underline-offset-2 hover:text-white transition">
-                              Inscription gratuite →
+                              Créer un compte
                            </Link>
                         </p>
 
